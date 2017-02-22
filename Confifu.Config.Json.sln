@@ -1,0 +1,33 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".sln", ".sln", "{CC408C3F-1C0B-498C-A043-DF8DD3F7FDE8}"
+	ProjectSection(SolutionItems) = preProject
+		build.fsx = build.fsx
+	EndProjectSection
+EndProject
+Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "Confifu.Config.Json", "src\app\Confifu.Config.Json\Confifu.Config.Json.xproj", "{FA25C82F-9535-4473-AB62-04B87661CD0B}"
+EndProject
+Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "Confifu.Config.Json.Tests", "src\test\Confifu.Config.Json.Tests\Confifu.Config.Json.Tests.xproj", "{247E3B24-C04D-427D-AC32-D3A0E4F10636}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{FA25C82F-9535-4473-AB62-04B87661CD0B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FA25C82F-9535-4473-AB62-04B87661CD0B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FA25C82F-9535-4473-AB62-04B87661CD0B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FA25C82F-9535-4473-AB62-04B87661CD0B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{247E3B24-C04D-427D-AC32-D3A0E4F10636}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{247E3B24-C04D-427D-AC32-D3A0E4F10636}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{247E3B24-C04D-427D-AC32-D3A0E4F10636}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{247E3B24-C04D-427D-AC32-D3A0E4F10636}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
