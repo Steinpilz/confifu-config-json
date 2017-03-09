@@ -1,14 +1,14 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 14
-VisualStudioVersion = 14.0.25420.1
+# Visual Studio 15
+VisualStudioVersion = 15.0.26228.4
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".sln", ".sln", "{CC408C3F-1C0B-498C-A043-DF8DD3F7FDE8}"
 	ProjectSection(SolutionItems) = preProject
 		build.fsx = build.fsx
 	EndProjectSection
 EndProject
-Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "Confifu.Config.Json", "src\app\Confifu.Config.Json\Confifu.Config.Json.xproj", "{FA25C82F-9535-4473-AB62-04B87661CD0B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Confifu.Config.Json", "src\app\Confifu.Config.Json\Confifu.Config.Json.csproj", "{FA25C82F-9535-4473-AB62-04B87661CD0B}"
 EndProject
 Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "Confifu.Config.Json.Tests", "src\test\Confifu.Config.Json.Tests\Confifu.Config.Json.Tests.xproj", "{247E3B24-C04D-427D-AC32-D3A0E4F10636}"
 EndProject

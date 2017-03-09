@@ -84,13 +84,16 @@ namespace Confifu.Config.Json
 
     public static class Exts
     {
-        public static ConfigVariablesBuilder Json(this ConfigVariablesBuilder builder, 
-            Action<JsonConfigVariablesBuilder> configAction) {
-
-            var jsonBuilder = builder.AddBuilder(new JsonConfigVariablesBuilder());
+        public static ConfigVariablesBuilder Json(
+            this ConfigVariablesBuilder builder, 
+            Action<JsonConfigVariablesBuilder> configAction
+            )
+        {
+            var jsonBuilder = new JsonConfigVariablesBuilder();
 
             configAction?.Invoke(jsonBuilder);
-
+            builder.AddBuilder(jsonBuilder);
+            
             return builder;
         }
 
