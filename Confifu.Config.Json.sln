@@ -5,7 +5,11 @@ VisualStudioVersion = 15.0.26228.4
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".sln", ".sln", "{CC408C3F-1C0B-498C-A043-DF8DD3F7FDE8}"
 	ProjectSection(SolutionItems) = preProject
-		build.fsx = build.fsx
+		.env = .env
+		build.bat = build.bat
+		scripts\build.fsx = scripts\build.fsx
+		paket.dependencies = paket.dependencies
+		README.md = README.md
 	EndProjectSection
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Confifu.Config.Json", "src\app\Confifu.Config.Json\Confifu.Config.Json.csproj", "{FA25C82F-9535-4473-AB62-04B87661CD0B}"
@@ -29,5 +33,8 @@ Global
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {6B395649-E14E-4733-899B-23C445185A91}
 	EndGlobalSection
 EndGlobal
